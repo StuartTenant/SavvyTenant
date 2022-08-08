@@ -1,0 +1,20 @@
+.light-logo-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.light-logo-image {
+  width: var(--dl-size-size-tripleunit);
+  margin: var(--dl-space-space-halfunit);
+  object-fit: cover;
+}
+.light-logo-logo {
+  color: var(--dl-color-gray-white);
+  width: auto;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+

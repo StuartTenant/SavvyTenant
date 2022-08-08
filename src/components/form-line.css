@@ -1,0 +1,76 @@
+.form-line-container {
+  display: flex;
+  position: relative;
+}
+.form-line-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form-line-text {
+  color: var(--dl-color-primary-100);
+  width: auto;
+  padding: 0px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.form-line-textinput {
+  color: var(--dl-color-primary-100);
+  width: auto;
+  align-self: flex-start;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 0px;
+  border-color: var(--dl-color-primary-100);
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-gray-white);
+}
+
+.form-line-root-class-name1 {
+  width: auto;
+  align-self: center;
+}
+
+.form-line-root-class-name3 {
+  width: auto;
+  align-self: center;
+}
+.form-line-root-class-name4 {
+  width: auto;
+  align-self: center;
+}
+
+
+.form-line-root-class-name7 {
+  width: auto;
+  align-self: center;
+}
+.form-line-root-class-name8 {
+  width: auto;
+  align-self: center;
+}
+
+@media(max-width: 1200px) {
+  .form-line-text {
+    color: #58673b;
+    align-self: flex-start;
+  }
+  .form-line-root-class-name {
+    align-self: flex-start;
+  }
+  .form-line-root-class-name1 {
+    align-self: flex-start;
+  }
+  .form-line-root-class-name2 {
+    align-self: flex-start;
+  }
+  .form-line-root-class-name6 {
+    align-self: flex-start;
+  }
+}

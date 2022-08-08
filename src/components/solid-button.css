@@ -1,0 +1,28 @@
+.solid-button-container {
+  display: flex;
+  position: relative;
+}
+.solid-button-button {
+  color: var(--dl-color-primary-500);
+  margin: var(--dl-space-space-halfunit);
+  font-size: 1.5rem;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Open Sans;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-500);
+  border-width: 3px;
+  padding-left: 25px;
+  border-radius: 50px;
+  padding-right: 25px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+
+
+
+
+
+

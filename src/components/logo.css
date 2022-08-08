@@ -1,0 +1,26 @@
+.logo-container {
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: var(--dl-size-size-tripleunit);
+  margin: var(--dl-space-space-halfunit);
+  align-self: stretch;
+  object-fit: cover;
+}
+.logo-logo {
+  color: var(--dl-color-gray-black);
+  width: auto;
+  text-align: left;
+  text-transform: uppercase;
+}
+@media(max-width: 1200px) {
+  .logo-logo {
+    color: var(--dl-color-primary-100);
+  }
+}
