@@ -3,7 +3,6 @@
   position: relative;
 }
 .solid-button2light-button {
-  color: var(--dl-color-primary-100);
   margin: var(--dl-space-space-halfunit);
   font-size: 1.5rem;
   font-style: normal;
@@ -11,11 +10,13 @@
   transition: 0.3s;
   font-family: Open Sans;
   font-weight: 500;
+  background-color: #58673b;
+  color: white;
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-primary-100);
   border-width: 2px;
   padding-left: 25px;
-  border-radius: 50px;
+  border-radius: 20px;
   padding-right: 25px;
   padding-bottom: var(--dl-space-space-unit);
   text-transform: none;

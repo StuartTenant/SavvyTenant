@@ -4,18 +4,20 @@ import PropTypes from 'prop-types'
 
 import './form-line2in.css'
 
-const FormLine2in = (props) => {
+function FormLine2in(props) {
   return (
     <div className={`form-line2in-container ${props.rootClassName} `}>
       <div className="form-line2in-container1">
         <span className="form-line2in-text">{props.text}</span>
         <div className="form-line2in-container2">
           <input
+            onChange={(val) => { props.firstOnChange(val); }}
             type="text"
             placeholder={props.textinput_placeholder}
             className="form-line2in-textinput input"
           />
           <input
+            onChange={(val) => { props.secoundOnChange(val); }}
             type="text"
             placeholder={props.textinput_placeholder1}
             className="form-line2in-textinput1 input"
