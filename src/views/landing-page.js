@@ -97,7 +97,7 @@ const LandingPage = (props) => {
               className="landing-page-component2"
             ></SolidButton>
           </Link>
-          <Link to="/howit-works" className="landing-page-navlink2">
+          <Link to="/how-it-works" className="landing-page-navlink2">
             <SolidButton
               button="How it Works"
               rootClassName="solid-button-root-class-name6"

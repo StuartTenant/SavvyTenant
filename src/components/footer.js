@@ -11,7 +11,7 @@ const Footer = (props) => {
   return (
     <div className={`footer-footer ${props.rootClassName} `}>
       <div className="footer-menu">
-        <Link to="/landing-page" className="footer-navlink">
+        <Link to="/" className="footer-navlink">
           <LightLogo
             rootClassName="light-logo-root-class-name"
             className="footer-component"
@@ -19,10 +19,10 @@ const Footer = (props) => {
         </Link>
         <div className="footer-links-container">
           <div className="footer-container">
-            <Link to="/landing-page" className="footer-navlink1">
+            <Link to="/" className="footer-navlink1">
               {props.text1}
             </Link>
-            <Link to="/howit-works" className="footer-navlink2">
+            <Link to="/how-it-works" className="footer-navlink2">
               {props.text11}
             </Link>
             <Link to="/blog" className="footer-navlink3">

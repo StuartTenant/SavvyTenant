@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "savvytenantsheets",
+  "private_key_id": "242192d298234f8503d3b80bad86bc7664016f9e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDSfOioi2Y7u+uK\nY98yEYo+EeruNmZWU0mYxekV0JWxD/hee3VO7btTBGy/cguZQlyie3B8HQn4vkVj\nmYwjwYqZyuhxRtyshMC5Taj4aInKoAoAiSYyO6CtKer29shobDizYOhZZ5mtpYZH\ndbX/uPq5Oo88/TrNNmAd2ttOtMqVoqedY3xIY5ROo/NWQGZte8aIkBjhwzXbPgLq\n5wNbydBEhObO9YEhF/804/xc3p0cbE2g+8AHJ9u18xrA9OvQL3ZOIFpauh7xkf9X\nwwj+GBEQY3dTFK1dhhDmOyAfUIPEnWOomDi1DHHNRSnHlP3ik38+9spLfOsvr8RZ\n/TXOQ4BjAgMBAAECggEAKjwB+v+tjcLRKj2L5WH7mSTDPPURZ7TiiZL8h/IIdzS7\nI0omaaXt9mRm5asehKv6JmgaU+0HuS+EgM2ofuwwwVcjeMc9NCiW+xeIFf/z1gJy\nv1TFo0KvpM9KZC90Wu+MGQIS3Q2ammsiHGiUEjGtrUkAwL4W9GI6uwLVCl/gXlGd\noJkGqnVqHT2GjOLpV9ccYHbh6p2B+HoVuZ7O+Im8M9yjWqec7xa4kL7eaGHY0kDA\nnk4qGghZ1vpu39Sy1Y3apkagMAzpjWXr+gBSahmRghagjA9YR+bypioI5yj9TjXY\ntyIQIkoSlcCUYTJZ6LZttKRfO+OOHxn5I49noFLmYQKBgQDsVEI4isVQ0P1kUNtp\nSq38Yu1+vw6mASmABJluj7YsLk3jwWGBX81okSryqT7ssBGvuts+PA1Q/0IF9UL7\n69dudAyBdDcu/yRcr/A6cw5slp2X7PKPOtECjSXLO15BX2X0EqG47tU4D0bbOytW\nY9ggvU0Cd88rMfHtdEl/DzPDyQKBgQDkAgVwrqBk2H5rnu1WAsBQU5fjMCYz7QBq\nsARLGvIuWqWahn4WIRQ9zKemeFH9W4rNQz7AebhPd5J7HNg8jP+awKC+zPLOaueN\n3ZZe/C8lFfqeIUI7ldqoKPIm9l1mgQhsQdjsKdjoNwVQCEpyDhXYyBiD4SyF9vcH\n4xUvVZ1AywKBgQCVTuKLkHj7Bx6gC0mj6w+jHelII3MgxCkw/TbmmBsTLKn/E8UD\nlMBUqSqGJxFfPhneeWJcnloXaz2OQBbyzFzOJrlj7EWVBpM1j95pPxnE1x93xba1\ncQZt4zkWfkqdaKUkH8VW7mV9RoGQroBB01DP1mlZ/tG/S426ZLaudK9SqQKBgBqD\nlahd1i8D8eeH6qd22HA+2EnF/ptJMyQ05brqHkF/rwRCIYVnQVhSZSh5k2c37vMh\nn7l4LhOnnvQMDaU07EBNqCOn55BTZCveGa9f+geA/8zFp1MQgQXPBSG8wm26EYWt\nPpFv6FZQl6CP5kBPHQFBe4BSff/yERXstTj05r1zAoGASlT1zei4LNGNxknHqFDO\noVvQ6T9VwPzjxNlJFk9Ajny3H75IPCfm0JnDR9RIwD11vT6aoIbb3hLaUlJAOq6I\nv+agGIkBwJovpJALRnm+opUE6se4TA+0gsAgOzvrXPFBfvy6xzNoE0LWPNT3Db9+\nUE1DQRcjusfrRMMrjxUtleM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "savvy-tenant-questions@savvytenantsheets.iam.gserviceaccount.com",
+  "client_id": "112029586775056006588",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/savvy-tenant-questions%40savvytenantsheets.iam.gserviceaccount.com"
+}

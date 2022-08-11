@@ -52,6 +52,33 @@ function FormRental(props) {
       });
       console.log("it worked");
     }
+    else if (formFlow == 2) {
+      try {
+        let anyAreasSelected = etobicoke || westEnd || midwest || york || northYork || scarborough;
+        await addDoc(collection(db, "entries"), {
+          email: email,
+          firstName: first,
+          lastName: last,
+          maxRent: rent,
+          bedrooms: rooms,
+          phoneNumber: phoneNumber,
+          pets: pets,
+          anyAreasSelected: anyAreasSelected,
+          areas: {
+            etobicoke: etobicoke,
+            westEnd: westEnd,
+            midwest: midwest,
+            york: york,
+            northYork: northYork,
+            scarborough: scarborough
+          }
+        });
+        setFormFlow((currentFormFlow) => currentFormFlow + 1);
+      } catch (e) {
+        console.log(e);
+      }
+
+    }
   }
 
   function isValidEmail(email) {
@@ -69,20 +96,6 @@ function FormRental(props) {
       flag = false;
     } else {
       setEmailError("");
-    }
-    console.log(rooms);
-    if (rooms < 1) {
-      setRoomsError("Enter a valid room number");
-      flag = false;
-    } else {
-      setRoomsError("");
-    }
-
-    if (rent < 1) {
-      setRentError("Enter a valid monthly rent");
-      flag = false;
-    } else {
-      setRentError("");
     }
     return flag;
   }
@@ -149,7 +162,7 @@ function FormRental(props) {
     {formFlow == 1 &&
       <div>
         <div>
-          <span className="form-line-text content">Enter your birthdate</span>
+          <span className="form-line-text content">Enter your date of birth</span>
         </div>
         <div>
 
@@ -168,7 +181,7 @@ function FormRental(props) {
       ></FormLine>
     }
     {formFlow == 1 &&
-      <ButtonText checked={(val) => { setPets(val.target.value) }} text='Pets'></ButtonText>
+      <ButtonText checked={() => { setPets(!pets) }} text='Pets'></ButtonText>
     }
     {(selectValue != "rent" && formFlow == 0) &&
       <textarea
@@ -184,16 +197,16 @@ function FormRental(props) {
     {formFlow == 2 &&
       <div style={{ alignItems: 'left' }}>
         <div style={{ justifyContent: 'flex-start' }}>
-          <ButtonText text='Etobicoke' checked={(val) => { setEtobicoke(val.target.value) }} ></ButtonText>
-          <ButtonText text='West End' checked={(val) => { setWestEnd(val.target.value) }}></ButtonText>
-          <ButtonText text='Midwest' checked={(val) => { setMidwest(val.target.value) }}></ButtonText>
+          <ButtonText text='Etobicoke' checked={() => { setEtobicoke(!etobicoke) }} ></ButtonText>
+          <ButtonText text='West End' checked={() => { setWestEnd(!westEnd) }}></ButtonText>
+          <ButtonText text='Midwest' checked={() => { setMidwest(!midwest) }}></ButtonText>
         </div>
 
         <div style={{ justifyContent: 'flex-start' }}>
-          <ButtonText text='Beaches / Danforth' checked={(val) => { setBeaches(val.target.value) }}></ButtonText>
-          <ButtonText text='York' checked={(val) => { setYork(val.target.value) }}></ButtonText>
-          <ButtonText text='North York' checked={(val) => { setNorthYork(val.target.value) }}></ButtonText>
-          <ButtonText text='Scarborough' checked={(val) => { setScarborough(val.target.value) }}></ButtonText>
+          <ButtonText text='Beaches / Danforth' checked={() => { setBeaches(!beaches) }}></ButtonText>
+          <ButtonText text='York' checked={() => { setYork(!york) }}></ButtonText>
+          <ButtonText text='North York' checked={() => { setNorthYork(!northYork) }}></ButtonText>
+          <ButtonText text='Scarborough' checked={() => { setScarborough(!scarborough) }}></ButtonText>
         </div>
       </div>
     }

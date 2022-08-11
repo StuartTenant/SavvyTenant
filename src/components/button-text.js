@@ -1,28 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import PropTypes from 'prop-types'
 
 import './button-text.css'
-import { Component } from 'react/cjs/react.production.min'
 
-class ButtonText extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      checked: false
-    }
-  }
+function ButtonText(props) {
+  const [checked, setChecked] = useState(false);
 
-  render() {
-    return (
-      <div className={`button-text-container ${this.props.rootClassName} `}>
-        <div className="button-text-container1">
-          <input onChange={() => { this.props.checked(this.state.checked); }} onClick={() => { this.setState({ checked: !this.state.checked }); }} type="checkbox" checked={this.state.checked} className="" />
-          <span className="button-text-text content">{this.props.text}</span>
-        </div>
+  return (
+    <div className={`button-text-container ${props.rootClassName} `}>
+      <div className="button-text-container1">
+        <input onChange={() => { props.checked(); }} onClick={() => { setChecked(!checked) }} type="checkbox" checked={checked} className="" />
+        <span className="button-text-text content">{props.text}</span>
       </div>
-    );
-  }
+    </div>
+  );
 
 
 }

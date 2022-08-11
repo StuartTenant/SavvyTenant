@@ -48,7 +48,7 @@ const ContactUs = (props) => {
                 className="contact-us-component2"
               ></SolidButton>
             </Link>
-            <Link to="/howit-works" className="contact-us-navlink1">
+            <Link to="/how-it-works" className="contact-us-navlink1">
               <SolidButton
                 button="How it Works"
                 rootClassName="solid-button-root-class-name1"

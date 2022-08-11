@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22450c90.css",
+    "main.js": "/static/js/main.a014c864.js",
+    "static/media/torontoMap.jpeg": "/static/media/torontoMap.404702f6efc7367f186d.jpeg",
+    "index.html": "/index.html",
+    "main.22450c90.css.map": "/static/css/main.22450c90.css.map",
+    "main.a014c864.js.map": "/static/js/main.a014c864.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22450c90.css",
+    "static/js/main.a014c864.js"
+  ]
+}
